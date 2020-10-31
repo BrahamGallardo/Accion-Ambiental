@@ -17,32 +17,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="317dp"
-        android:layout_height="50dp"
-        android:text="Guardar"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="443dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hola soy un pan"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="92dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="148dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
